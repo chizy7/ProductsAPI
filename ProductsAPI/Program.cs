@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using ProductsAPI.Data;
-using ProductsAPI.Procedures;
 
 var builder = WebApplication.CreateBuilder(args);
 

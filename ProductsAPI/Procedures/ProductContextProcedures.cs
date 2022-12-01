@@ -1,7 +1,7 @@
-﻿using System;
+﻿//using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace ProductsAPI.Procedures
+namespace ProductsAPI.Data
 {
     public partial class ProductContextProcedures : DbContext
     {

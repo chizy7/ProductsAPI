@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProductsAPI.Data;
 using ProductsAPI.Models;
-using ProductsAPI.Procedures;
 
 namespace ProductsAPI.Controllers
 {

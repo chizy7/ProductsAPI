@@ -1,5 +1,5 @@
 ﻿//using System;
-namespace ProductsAPI.Procedures
+namespace ProductsAPI.Data
 {
     public class CustOrderHistory
     {
