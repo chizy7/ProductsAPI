@@ -6,9 +6,11 @@ An api containing a list of products and their names, supplier information, cust
 | HTTP Method |  API Endpoint                         | Description                                                                 |
 | ----------- | ------------------------------------- | --------------------------------------------------------------------------- |                               
 | GET         | /api/Products                            | Return a list of all the products                                        |
+| OPTIONS     | /api/Products/                           | Return the HTTP methods that the server supports                         |
 | POST        | /api/Products                            | Add a new product.                                                       |
 | GET         | /api/Products/{id}                       | Return a product for a given id.                                         |
 | PUT         | /api/Products/{id}                       | Update an existing product for a given id                                |
+| PATCH       | /api/Products/{id}                       | Apply the patch operations to the product.                               |
 | DELETE      | /api/Products/{id}                       | Delete an existing product for a given id                                |
 | GET         | /api/Products/GetSupplierFromProductName | Return a supplier from a particular product name                         |
 | GET         | /api/Products/GetAlphabeticalListOfProducts | Return an alphabetical list of products in all the products           |
@@ -41,4 +43,8 @@ An api containing a list of products and their names, supplier information, cust
 <img src="https://i.imgur.com/30FGiwG.png" width=500 alt='api #6'>
 </p>
 
+- ENDPOINTS SCREENSHOT
+<p float="left">
+<img src="https://i.imgur.com/nCQ8rVw.png" width=500 alt='api #7'>
+</p>
 
